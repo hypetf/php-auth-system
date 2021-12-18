@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+    -webkit-font-smoothing: antialiased;
+    outline: none;
+    image-rendering: optimizeQuality;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #232323 0%, #041825 100%);
+    color: white;
+}
+
+h1 {
+    position: absolute;
+    top: 15%;
+    font-size: 2em;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+}
+
+.navbar {
+    position: absolute;
+    background: rgba(0,0,0,.4);
+    height: 3em;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    outline: none;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0 1em;
+    transition: .3s ease-out;
+}
+
+.navbar a:hover {
+    color: rgba(255, 255, 255, .4);
+}
+
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .box {
+    height: 250px;
+    width: 250px;
+    background: rgba(0, 0, 0, .4);
+    margin: 0 2em;
+    border-radius: 10px;
+    backdrop-filter: 20px;
+    
+}
+
+.signupForm {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signupForm form {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    padding: 2em;
+    justify-content: center;
+}
+
+form label {
+    color: white;
+    margin: 1em 0 0 0;
+}
+
+form input {
+    border: none;
+    background:rgba(0, 0, 0, .4);
+    backdrop-filter: 20px;
+    height: 2.5em;
+    border-radius: 8px;
+    margin: .5em 0 0 0;
+    width: 30vh;
+    color: white;
+    padding: .5em;
+}
+
+form button {
+    margin: 1.5em 0 ;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2px;
+    background: rgb(11, 71, 111, .4);
+    backdrop-filter: 20px;
+    border: none;
+    cursor: pointer;
+    padding: .5em 0;
+    border-radius: 8px;
+    transition: .3s ease-out;
+}
+
+form label {
+    margin-left: .3em;
+}
+
+form button:hover {
+    background: rgba(8, 117, 189, 0.8);
+}
+
+p {
+    color: white;
+    margin: 0;
+}
+
+.dashboard {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.updatePwd form, .delAccount form {
+    display: flex;
+    flex-direction: column;
+}
+
+.updatePwd form {
+    margin-right: 5em;
+    padding-right: 5em;
+    border-right: 1px solid white;
+}
+
+#btnRed {
+    margin: 1.5em 0 ;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2px;
+    background: transparent;
+    backdrop-filter: 20px;
+    border: 1px solid red;
+    cursor: pointer;
+    padding: .5em 0;
+    border-radius: 8px;
+    transition: .3s ease-out;
+}
+
+#btnRed:hover {
+    background: rgba(255, 0, 0, .4);
+    backdrop-filter: 20px;
+    border: 1px solid transparent;
+}
