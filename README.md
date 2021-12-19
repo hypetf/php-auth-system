@@ -14,7 +14,7 @@
   <p align="center">
     A simple authentication system created with PHP and mysqli
     <br />
-    <a href="#top"><strong>View demo » (not available)</strong></a>
+    <a href="http://hypetf.lovestoblog.com/?i=1"><strong>View demo »</strong></a>
     <br />
 </div>
 
